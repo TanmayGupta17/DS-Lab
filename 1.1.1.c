@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    printf("enter nonof elements:");
+    printf("enter no of elements:");
     scanf("%d", &n);
     int a[n] ;
     printf("enter array:");
