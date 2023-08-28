@@ -1,3 +1,4 @@
+// performing all string operations without using string library
 #include <stdio.h>
 
 int strLen(char s[100])
