@@ -157,8 +157,8 @@ int main(){
     InsertAtPos(1,25);
     InsertAfterElement(25,30);
     InsertBeforeElement(30,40);
-//    deleteAtEnd();
-//    deleteAtPos(1);
+    deleteAtEnd();
+    deleteAtPos(1);
     revlist();
     display();
     return 0;
