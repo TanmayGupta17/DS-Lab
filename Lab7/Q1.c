@@ -53,6 +53,7 @@ void createList()
 void TraverseLinkedList()
 {
     Node *ptr = head;
+    printf("Displaying list: \n");
     while (ptr != NULL)
     {
         printf("%d\n", ptr->data);
@@ -183,7 +184,7 @@ void deleteAlt()
 
 int main()
 {
-
+    createList();
     TraverseLinkedList();
     insertAtFirst(91);
     insertAtIndex(20, 1);
