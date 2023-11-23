@@ -288,7 +288,6 @@ int noOfLeafNodes()
         if (cur->left == NULL && cur->right == NULL)
             count++;
         cur = cur->right;
-        cur = cur->right;
     }
     return count;
 }
