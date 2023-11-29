@@ -6,7 +6,6 @@
 int top = -1;
 int stack[size];
 char postfix[size];
-char prefix[size];
 
 void push(char c){
     if(top == size - 1){
